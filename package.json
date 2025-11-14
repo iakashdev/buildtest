@@ -1,0 +1,13 @@
+{
+  "name": "buildtest-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix buildtest run dev",
+    "build": "npm --prefix buildtest run build",
+    "preview": "npm --prefix buildtest run preview",
+    "lint": "npm --prefix buildtest run lint",
+    "install": "npm --prefix buildtest install"
+  }
+}
+
