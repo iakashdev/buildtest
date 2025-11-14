@@ -1,42 +1,309 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+/* .poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+.App {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App-header {
+  /* background-color: #161919; */
+
+  background-color: #000000;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iamakash {
+  color: #FFFF;
+  font-family: "Poppins", serif;
+  font-size: 56px;
+  margin-top: -38px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.iambox {
+
+  height: 40px;
+  width: 550px;
+  background-color: #444D4D;
+  margin-top: 50px;
+
+
+
 }
 
-.card {
-  padding: 2em;
+.iamakashbg {
+  /* color: #FFFF; */
+  font-family: "Poppins", serif;
+  font-size: 56px;
+  margin-top: -118px;
+  color: transparent;
+  -webkit-text-stroke: 0.2px rgb(255, 255, 255);
 }
 
-.read-the-docs {
-  color: #888;
+
+.webdev {
+
+  font-family: "Poppins", serif;
+  font-size: 116px;
+  color: #FFFF;
+  margin-top: 6px;
 }
+
+.my_img {
+  width: 330px;
+  height: 385px;
+  margin-top: -160px;
+  transform: rotate(8deg);
+  opacity: 90%;
+
+}
+
+.webdevstroked {
+  position: absolute;
+  /* Allows layering */
+
+  -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+  font-family: "Poppins", serif;
+  font-size: 116px;
+  color: transparent;
+  margin-top: -481px;
+
+}
+
+.About {
+  margin-left: -1000px;
+  margin-top: -150px;
+
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.para {
+  color: white;
+  font-family: "Poppins", serif;
+  text-align: left;
+  font-size: 15px;
+}
+
+.connect {
+
+  background-color: #ffffff;
+  border-color: none;
+  color: #000000;
+  font-family: "Poppins", serif;
+  width: 150px;
+  height: 35px;
+  font-style: bold;
+
+
+
+
+
+  position: relative;
+
+  background: #FFFFFF;
+
+  color: #000000;
+  border: 3px solid #0e3a3a;
+  border-radius: 2px;
+  box-shadow: 0 0 0 #fec1958c;
+  transition: all .3s ease-in-out;
+
+}
+
+
+.Aboutmebtn {
+  background-color: #444D4D;
+  border-color: none;
+  color: #FFFF;
+  font-family: "Poppins", serif;
+  width: 100px;
+  height: 35px;
+  font-style: bold;
+  border-radius: 2px;
+
+
+
+  position: relative;
+
+  background: #FFFFFF;
+
+  color: #000000;
+  border: 3px solid #0e3a3a;
+  border-radius: 2px;
+  box-shadow: 0 0 0 #fec1958c;
+  transition: all .3s ease-in-out;
+
+
+
+
+}
+
+
+/* button {
+  position: relative;
+
+  background: #FFFFFF;
+
+  color: #000000;
+  border: 3px solid #0e3a3a;
+  border-radius: 2px;
+  box-shadow: 0 0 0 #fec1958c;
+  transition: all .3s ease-in-out;
+} */
+
+
+.star-2 {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ffffff);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #fffdef);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #fffdef);
+  z-index: -5;
+  transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #fffdef);
+  z-index: -5;
+  transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-6 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #fffdef);
+  z-index: -5;
+  transition: all .8s ease;
+}
+
+button:hover {
+  background: #000000;
+  color: #FFFFFF;
+  box-shadow: 0 0 25px #0e3a3a;
+  border: 1px solid #FFF;
+}
+
+button:hover .star-1 {
+  position: absolute;
+  top: -80%;
+  left: -30%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button:hover .star-2 {
+  position: absolute;
+  top: -25%;
+  left: 10%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button:hover .star-3 {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button:hover .star-4 {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button:hover .star-5 {
+  position: absolute;
+  top: 25%;
+  left: 115%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button:hover .star-6 {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+/* .fil0 {
+  fill: #FFFDEF
+} */
